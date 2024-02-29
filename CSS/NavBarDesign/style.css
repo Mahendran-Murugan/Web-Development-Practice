@@ -10,6 +10,8 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: aliceblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     position: sticky;
     opacity: 0.8;
     top:0;
