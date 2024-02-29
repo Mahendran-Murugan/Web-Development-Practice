@@ -57,10 +57,15 @@ a{
     padding-left: 350px;
     padding-right: 350px;
     list-style-type: none;
-    border: 0.5px dotted lightslategrey;
-    margin-bottom: 15px;
+    background-color: rgb(176, 178, 179);
+    color: rgb(51, 50, 50);
+    font-weight: bold;
+    border: 0.5px solid lightslategrey;
 }
 
+.month:hover{
+    background-color: lightblue;
+}
 
 .months{
     display: flex;
@@ -68,23 +73,24 @@ a{
 }
 
 .photos{
+    margin-top: 15px;
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
     border: 2px solid gray;
     padding: 15px;
+    gap: 30px;
 }
 
 .images{
     display: flex;
     flex-flow: column;
     border: 1px dotted grey;
-    padding: 5px;
 }
 
 .i{
-    height: 150px;
-    width: 250px;
+    height: 250px;
+    width: 375px;
 }
 
 h5{
