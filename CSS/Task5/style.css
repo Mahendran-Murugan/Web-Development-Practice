@@ -47,11 +47,6 @@ a{
     align-items: center;
 }
 
-.title{
-    position: relative;
-    left: 40%;
-}
-
 .month{
     padding: 15px;
     padding-left: 350px;
