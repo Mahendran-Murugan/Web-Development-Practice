@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px ;
+}
+
+.flex-item{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.item1{
+    background-color: aliceblue;
+}
+
+.item2{
+    background-color: aqua;
+}   
+
+.item3{
+    background-color: bisque;
+}
+
+.item4{
+    background-color: black;
+}
+
+.item5{
+    background-color: blue;
+}
+
+.item6{
+    background-color: yellowgreen;
+}
+
+.item7{
+    background-color: cadetblue;
+}
