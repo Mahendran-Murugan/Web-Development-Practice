@@ -1,7 +1,7 @@
 .container{
     border: 5px solid black;
     display: grid;
-    height: 800px;
+    height: 600px;
     /* overflow: hidden; */
     /* grid-template-columns: repeat(3, 1fr);  */
     /* grid-template-rows: 200px 200px 200px; */
@@ -14,7 +14,7 @@
     /* place-items: center; */
     /* justify-content: space-evenly; */
     /* align-content: space-between; */
-    place-content: space-evenly;
+    /* place-content: space-evenly space-around; */
 }
 
 .grid-items{
@@ -26,6 +26,15 @@
 
 .item1{
     background-color: blue;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* grid-row: span 2; */
+    /* grid-column: span 2; */
+    /* justify-self: start;
+    align-self: start; */
+    place-self: center;
 }
 .item2{
     background-color: rgb(196, 156, 235);
