@@ -1,12 +1,20 @@
 .container{
     border: 5px solid black;
     display: grid;
-    height: 600px;
-    overflow: hidden;
+    height: 800px;
+    /* overflow: hidden; */
     /* grid-template-columns: repeat(3, 1fr);  */
-    /* grid-template-rows: repeat(3, 1fr);  default */
-    /* grid-template: repeat(3,1fr) / repeat(3,1fr); */
-    grid-template: repeat(3,minmax(200px,1fr)) / repeat(3,minmax(200px,1fr));
+    /* grid-template-rows: 200px 200px 200px; */
+    grid-template: repeat(3,200px) / repeat(3,200px);
+    /* gap:10px; */
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* place-items: center; */
+    /* justify-content: space-evenly; */
+    /* align-content: space-between; */
+    place-content: space-evenly;
 }
 
 .grid-items{
