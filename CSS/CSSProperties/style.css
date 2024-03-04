@@ -20,4 +20,11 @@ body{
     /* background:linear-gradient(violet,red, green, yellow, blue, white,pink); */
     /*Radial Gradient*/
     /* background:radial-gradient(black,red, green, yellow, blue, white); */
+    /*transition*/
+    /* background-color: aqua;
+    transition: background-color 1s ease-in; */
 }   
+
+.container:hover{
+    background-color: yellowgreen;
+}
