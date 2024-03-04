@@ -1,0 +1,23 @@
+body{
+    margin: 200px;
+}
+
+.container{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    /*Box Shadow*/
+    box-shadow: 15px 15px 15px 15px black;
+    /*Border Radius*/
+    border-radius: 20px;
+    /*Transform*/
+    /* transform: rotate(20deg); */
+    /* transform: rotate3d(20deg,30deg,50deg) */
+    /* transform: scale(2); */
+    /* transform: translate(100px); */
+    /* transform: skew(30deg); */
+    /*Linear Gradient*/
+    /* background:linear-gradient(violet,red, green, yellow, blue, white,pink); */
+    /*Radial Gradient*/
+    /* background:radial-gradient(black,red, green, yellow, blue, white); */
+}   
