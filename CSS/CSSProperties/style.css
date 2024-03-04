@@ -2,13 +2,34 @@ body{
     margin: 200px;
 }
 
+@keyframes change {
+    0%{
+        transform: translateX(-100px);
+    }
+    25%{
+        transform: translateX(-50px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    75%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
+
 .container{
     margin: auto;
     width: 200px;
     height: 200px;
     /*Box Shadow*/
+    border: 1px solid #fff;
+    background: rgba(255,255,255,0.4);
     box-shadow: 15px 15px 15px 15px black;
     /*Border Radius*/
+    backdrop-filter: blur(20px);
     border-radius: 20px;
     /*Transform*/
     /* transform: rotate(20deg); */
@@ -23,8 +44,5 @@ body{
     /*transition*/
     /* background-color: aqua;
     transition: background-color 1s ease-in; */
+    animation: change 1s infinite linear;
 }   
-
-.container:hover{
-    background-color: yellowgreen;
-}
